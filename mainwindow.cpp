@@ -13,7 +13,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    this->statusBar()->setSizeGripEnabled(false);
+    QIcon appIcon("C:/Users/Sossz/Documents/MagicRename/ICON.png");
+    this->setWindowIcon(appIcon);
 
     // Move the window to the center of the screen
     QScreen *screen = QGuiApplication::primaryScreen();
