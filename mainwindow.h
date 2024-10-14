@@ -19,6 +19,7 @@ private slots:
     void browseVideoFolder();
     void browseSubtitleFolder();
     void renameSubtitles();
+    void checkFolders();  // Declare the checkFolders() function here
 
 private:
     Ui::MainWindow *ui;

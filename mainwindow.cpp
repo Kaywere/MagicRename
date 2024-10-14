@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QScreen>
+#include <QGuiApplication>
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QDir>
@@ -11,15 +13,40 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    // Connect buttons to their respective slots
-    connect(ui->browseVideoButton, &QPushButton::clicked, this, &MainWindow::browseVideoFolder);
-    connect(ui->browseSubtitleButton, &QPushButton::clicked, this, &MainWindow::browseSubtitleFolder);
-    connect(ui->renameButton, &QPushButton::clicked, this, &MainWindow::renameSubtitles);
+    // Get the screen size
+    QScreen *screen = QGuiApplication::primaryScreen();
+    QRect screenGeometry = screen->geometry();
+    int screenWidth = screenGeometry.width();
+    int screenHeight = screenGeometry.height();
+
+    // Set window size to 25% of the screen size
+    int windowWidth = screenWidth * 0.25;
+    int windowHeight = screenHeight * 0.25;
+
+    // Move the window to the center of the screen
+    this->move((screenWidth - windowWidth) / 2, (screenHeight - windowHeight) / 2);
+
+    // Disable the rename button initially
+    ui->renameButton->setEnabled(false);
+
+    // Connect text changes in both line edits to the slot
+    connect(ui->videoFolderEdit, &QLineEdit::textChanged, this, &MainWindow::checkFolders);
+    connect(ui->subtitleFolderEdit, &QLineEdit::textChanged, this, &MainWindow::checkFolders);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::checkFolders()
+{
+    // Enable the rename button only if both fields have input
+    if (!ui->videoFolderEdit->text().isEmpty() && !ui->subtitleFolderEdit->text().isEmpty()) {
+        ui->renameButton->setEnabled(true);
+    } else {
+        ui->renameButton->setEnabled(false);
+    }
 }
 
 void MainWindow::browseVideoFolder()
