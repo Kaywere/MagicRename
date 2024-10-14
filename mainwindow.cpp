@@ -22,7 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     // Set window size to 25% of the screen size
     int windowWidth = screenWidth * 0.25;
     int windowHeight = screenHeight * 0.25;
-
+    // Set the fixed size to prevent resizing
+    this->setFixedSize(windowWidth, windowHeight);
     // Move the window to the center of the screen
     this->move((screenWidth - windowWidth) / 2, (screenHeight - windowHeight) / 2);
 

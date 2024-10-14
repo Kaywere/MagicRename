@@ -123,7 +123,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MagicRename", nullptr));
         subtitleFolderEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "Select subtitle folder...", nullptr));
         labelSubtitle->setText(QCoreApplication::translate("MainWindow", "Subtitle Folder Path:", nullptr));
-        renameButton->setText(QCoreApplication::translate("MainWindow", "Rename Subtitles", nullptr));
+        renameButton->setText(QCoreApplication::translate("MainWindow", "Rename", nullptr));
         labelVideo->setText(QCoreApplication::translate("MainWindow", "Video Folder Path:", nullptr));
         browseVideoButton->setText(QCoreApplication::translate("MainWindow", "Browse Video", nullptr));
         browseSubtitleButton->setText(QCoreApplication::translate("MainWindow", "Browse Subtitle", nullptr));
