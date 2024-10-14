@@ -46,7 +46,7 @@ else()
 qt_add_executable(MagicRename
     WIN32
     ${PROJECT_SOURCES}
-    MagicRename.ico  # Adding icon file
+    MagicRename.rc
 )
 
 
