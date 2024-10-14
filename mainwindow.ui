@@ -7,8 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>293</width>
-    <height>222</height>
+    <height>201</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>293</width>
+    <height>201</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>293</width>
+    <height>201</height>
+   </size>
   </property>
   <property name="baseSize">
    <size>
@@ -26,7 +38,7 @@
       <x>10</x>
       <y>10</y>
       <width>271</width>
-      <height>181</height>
+      <height>161</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">

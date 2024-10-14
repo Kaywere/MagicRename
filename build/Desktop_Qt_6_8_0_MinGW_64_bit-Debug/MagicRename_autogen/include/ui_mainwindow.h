@@ -46,13 +46,15 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(293, 222);
+        MainWindow->resize(293, 201);
+        MainWindow->setMinimumSize(QSize(293, 201));
+        MainWindow->setMaximumSize(QSize(293, 201));
         MainWindow->setBaseSize(QSize(1920, 1080));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget_2 = new QWidget(centralwidget);
         centralwidget_2->setObjectName("centralwidget_2");
-        centralwidget_2->setGeometry(QRect(10, 10, 271, 181));
+        centralwidget_2->setGeometry(QRect(10, 10, 271, 161));
         gridLayout = new QGridLayout(centralwidget_2);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setContentsMargins(0, 0, 0, 0);

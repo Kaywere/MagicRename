@@ -7,28 +7,19 @@
 #include <QDir>
 #include <QFileInfo>
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 
-    // Get the screen size
+
+    // Move the window to the center of the screen
     QScreen *screen = QGuiApplication::primaryScreen();
     QRect screenGeometry = screen->geometry();
-    int screenWidth = screenGeometry.width();
-    int screenHeight = screenGeometry.height();
-
-    // Set window size to 25% of the screen size
-    int windowWidth = screenWidth * 0.25;
-    int windowHeight = screenHeight * 0.25;
-    // Set the fixed size to prevent resizing
-    this->setFixedSize(windowWidth, windowHeight);
-    // Move the window to the center of the screen
-    this->move((screenWidth - windowWidth) / 2, (screenHeight - windowHeight) / 2);
-
-    // Disable the rename button initially
-    ui->renameButton->setEnabled(false);
+    this->move((screenGeometry.width() - this->width()) / 2,
+               (screenGeometry.height() - this->height()) / 2);
 
     // Connect text changes in both line edits to the slot
     connect(ui->videoFolderEdit, &QLineEdit::textChanged, this, &MainWindow::checkFolders);
