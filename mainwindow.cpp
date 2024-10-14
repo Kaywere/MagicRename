@@ -32,6 +32,10 @@ MainWindow::MainWindow(QWidget *parent)
     // Connect text changes in both line edits to the slot
     connect(ui->videoFolderEdit, &QLineEdit::textChanged, this, &MainWindow::checkFolders);
     connect(ui->subtitleFolderEdit, &QLineEdit::textChanged, this, &MainWindow::checkFolders);
+    connect(ui->browseVideoButton, &QPushButton::clicked, this, &MainWindow::browseVideoFolder);
+    connect(ui->browseSubtitleButton, &QPushButton::clicked, this, &MainWindow::browseSubtitleFolder);
+    connect(ui->renameButton, &QPushButton::clicked, this, &MainWindow::renameSubtitles);
+
 }
 
 MainWindow::~MainWindow()

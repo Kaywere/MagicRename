@@ -62,7 +62,7 @@
        <item>
         <widget class="QPushButton" name="renameButton">
          <property name="enabled">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
          <property name="text">
           <string>Rename Subtitles</string>

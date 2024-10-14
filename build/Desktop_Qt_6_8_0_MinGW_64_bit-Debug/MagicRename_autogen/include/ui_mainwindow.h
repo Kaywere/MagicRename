@@ -74,7 +74,7 @@ public:
 
         renameButton = new QPushButton(centralwidget_2);
         renameButton->setObjectName("renameButton");
-        renameButton->setEnabled(false);
+        renameButton->setEnabled(true);
 
         verticalLayout->addWidget(renameButton);
 
