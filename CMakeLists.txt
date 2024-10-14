@@ -45,9 +45,10 @@ else()
     else()
 qt_add_executable(MagicRename
     WIN32
-    main.cpp  # Your source files
-    ${CMAKE_SOURCE_DIR}/MagicRename.ico  # Ensure this path is correct
+    ${PROJECT_SOURCES}
+    MagicRename.ico  # Adding icon file
 )
+
 
     endif()
 

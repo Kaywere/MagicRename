@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 74,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 57,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -371,11 +371,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "MagicRename_autogen::@6890427a1f51a3e7e1df"
+			"id" : "MagicRename_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "MagicRename_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "MagicRename_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "MagicRename::@6890427a1f51a3e7e1df",
