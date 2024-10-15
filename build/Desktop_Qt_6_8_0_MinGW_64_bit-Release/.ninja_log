@@ -1,0 +1,13 @@
+# ninja log v6
+13	456	7506936076444930	C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	54c7ee7d28505737
+462	1030	7506936085926445	MagicRename_autogen/timestamp	1bded30db87b1c3
+462	1030	7506936085926445	MagicRename_autogen/mocs_compilation.cpp	1bded30db87b1c3
+462	1030	7506936085926445	C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/MagicRename_autogen/timestamp	1bded30db87b1c3
+462	1030	7506936085926445	C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/MagicRename_autogen/mocs_compilation.cpp	1bded30db87b1c3
+1034	1100	7506936087224271	MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp	4b53ca1203887161
+1034	1100	7506936087224271	C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp	4b53ca1203887161
+1112	1382	7506936087425062	CMakeFiles/MagicRename.dir/MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp.obj	ed69f704e5d7ba34
+1100	2166	7506936087316005	CMakeFiles/MagicRename.dir/MagicRename_autogen/mocs_compilation.cpp.obj	f1eee573b5d394e9
+1104	2214	7506936087326068	CMakeFiles/MagicRename.dir/main.cpp.obj	753c19e5464d1b3f
+1108	2629	7506936087326068	CMakeFiles/MagicRename.dir/mainwindow.cpp.obj	6d1b010ed7109153
+2630	2764	7506936102589180	MagicRename.exe	3074c1ff19b7f305
