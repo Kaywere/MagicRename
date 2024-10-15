@@ -1,0 +1,25 @@
+# ninja log v6
+9	396	7507044478292153	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/cmake.verify_globs	ae121d8eb39fcf28
+402	970	7507044487332436	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/MagicRename_autogen/timestamp	42644126e79640e5
+388	1402	7507048297650936	build.ninja	634a1fc3fe650bdb
+402	970	7507044487332436	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/MagicRename_autogen/mocs_compilation.cpp	42644126e79640e5
+402	970	7507044487332436	MagicRename_autogen/timestamp	42644126e79640e5
+974	1039	7507044488532909	MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp	e126d240bf272de1
+1039	2081	7507044488586686	CMakeFiles/MagicRename.dir/MagicRename_autogen/mocs_compilation.cpp.obj	b1097facef8c023b
+402	970	7507044487332436	MagicRename_autogen/mocs_compilation.cpp	42644126e79640e5
+974	1039	7507044488532909	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp	e126d240bf272de1
+1050	1321	7507044488697603	CMakeFiles/MagicRename.dir/MagicRename_autogen/EWIEGA46WW/qrc_resources.cpp.obj	6a0dcf2bb031ece
+1042	2123	7507044488619891	CMakeFiles/MagicRename.dir/main.cpp.obj	5a9c27aea9db65c6
+1046	2548	7507044488667499	CMakeFiles/MagicRename.dir/mainwindow.cpp.obj	8bc8c1e01fc3d7d0
+2549	2685	7507044503684433	MagicRename.exe	3074c1ff19b7f305
+10	41	7507048374069266	CMakeFiles/clean.additional	321391b2684b2653
+41	52	7507048374364476	clean	577b940aee94fbd7
+14	574	7507048380242708	MagicRename_autogen/timestamp	42644126e79640e5
+14	574	7507048380242708	MagicRename_autogen/mocs_compilation.cpp	42644126e79640e5
+14	574	7507048380242708	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/MagicRename_autogen/timestamp	42644126e79640e5
+14	574	7507048380242708	C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/MagicRename_autogen/mocs_compilation.cpp	42644126e79640e5
+585	633	7507048380905181	CMakeFiles/MagicRename.dir/MagicRename.rc.obj	251c787d31c09ce0
+575	1619	7507048380800390	CMakeFiles/MagicRename.dir/MagicRename_autogen/mocs_compilation.cpp.obj	b1097facef8c023b
+578	1665	7507048380838602	CMakeFiles/MagicRename.dir/main.cpp.obj	5a9c27aea9db65c6
+582	2082	7507048380871410	CMakeFiles/MagicRename.dir/mainwindow.cpp.obj	8bc8c1e01fc3d7d0
+2082	2218	7507048395873697	MagicRename.exe	b7550ecadfd56c09

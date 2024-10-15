@@ -1,9 +1,0 @@
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/MagicRename.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/install.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/install/local.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/MagicRename_autogen_timestamp_deps.dir
-C:/Users/Sossz/Documents/MagicRename/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/CMakeFiles/MagicRename_autogen.dir

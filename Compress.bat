@@ -2,7 +2,7 @@
 echo Starting Cleanup...
 
 REM Define the path to the build directory (change this to your actual build folder)
-set buildDir=C:\Users\Sossz\Documents\MagicRename\build\Desktop_Qt_6_8_0_MinGW_64_bit-Release
+set buildDir=C:\Users\Sossz\Documents\MagicRename\build\MagicRenameV0
 
 REM Delete unnecessary translation files
 echo Removing unnecessary translations...

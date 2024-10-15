@@ -1,0 +1,9 @@
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/MagicRename.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/edit_cache.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/rebuild_cache.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/list_install_components.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/install.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/install/local.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/install/strip.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/MagicRename_autogen_timestamp_deps.dir
+C:/Users/Sossz/Documents/MagicRename/build/MagicRenameV0/CMakeFiles/MagicRename_autogen.dir
